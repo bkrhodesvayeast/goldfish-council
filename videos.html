@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Goldfish Videos — The Goldfish Council</title>
+<meta name="description" content="A gallery of goldfish YouTube videos with descriptions." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-row">
+    <svg class="brand-logo" width="40" height="40" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="22" cy="22" r="20" fill="#ffffff" stroke="#cc0200" stroke-width="2.5"/>
+      <ellipse cx="18" cy="22" rx="8" ry="6" fill="#cc0200"/>
+      <path d="M26 22 L35 15 L35 29 Z" fill="#cc0200"/>
+      <circle cx="14" cy="20" r="1.4" fill="#ffffff"/>
+    </svg>
+    <h1 class="brand-name">The Goldfish Council</h1>
+    <span class="brand-tagline">Breeders' Sale Page</span>
+  </div>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="videos.html" class="active">Goldfish Videos</a>
+    <a href="about.html">About / Our Fish</a>
+  </nav>
+</header>
+
+<div class="page-header">
+  <div class="page-header-inner">
+    <h1>Goldfish Videos</h1>
+    <p>A collection of goldfish videos, one fish at a time.</p>
+  </div>
+</div>
+
+<div class="wave-divider"></div>
+
+<main>
+  <div id="search-bar">
+    <input id="search-input" type="text" placeholder="Search by goldfish name, title, or description..." />
+  </div>
+
+  <div id="grid"></div>
+
+  <div id="empty-state">No goldfish match your search yet 🐟</div>
+</main>
+
+<footer>
+  Built with a static page — add new videos by editing <code>videos-data.js</code>.
+</footer>
+
+<script src="videos-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
