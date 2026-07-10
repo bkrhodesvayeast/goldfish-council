@@ -413,6 +413,24 @@ main {
   color: var(--muted);
 }
 
+.aquabid-link {
+  display: inline-block;
+  margin-top: 0.7rem;
+  padding: 0.4rem 0.9rem;
+  background: var(--navy-deep);
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-decoration: none;
+  border-radius: 4px;
+  align-self: flex-start;
+  transition: background 0.15s ease;
+}
+
+.aquabid-link:hover {
+  background: var(--navy-mid);
+}
+
 #empty-state {
   text-align: center;
   color: var(--muted);

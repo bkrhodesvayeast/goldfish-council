@@ -46,6 +46,16 @@ function makeCard(video) {
     <div class="card-date">${formatDate(video.date)}</div>
   `;
 
+  if (video.aquabidUrl) {
+    const link = document.createElement("a");
+    link.href = video.aquabidUrl;
+    link.className = "aquabid-link";
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "View on AquaBid ↗";
+    body.appendChild(link);
+  }
+
   card.appendChild(videoWrap);
   card.appendChild(body);
   return card;

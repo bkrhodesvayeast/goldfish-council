@@ -25,11 +25,13 @@ Open `videos-data.js` and add an entry to the `VIDEOS` array:
   goldfishName: "Bubbles",
   title: "Bubbles doing a lap around the tank",
   description: "Bubbles is a 3-year-old fantail goldfish who loves swimming through the castle decoration.",
-  date: "2026-07-04"
+  date: "2026-07-04",
+  aquabidUrl: "https://www.aquabid.com/cgi-bin/auction/goldfish/view.cgi?your-listing-id-here"
 }
 ```
 
 - `youtubeId` is the part of the video URL after `v=` (e.g. `youtube.com/watch?v=XXXXXXXXXXX`).
+- `aquabidUrl` is optional — paste a live AquaBid listing URL and a "View on AquaBid" button appears on that card. Delete the line entirely for fish with no active auction.
 - Entries are sorted newest-first automatically by `date`.
 - Save the file and push — that's the entire publishing step.
 
