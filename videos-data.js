@@ -16,14 +16,4 @@
   on the card. Leave it out (or delete the line) if there's no auction.
 */
 
-const VIDEOS = [
-  {
-    youtubeId: "KlrYYPOk1hQ",
-    goldfishName: "Calico Deep Body Telescope Butterfly",
-    title: "Calico Deep Body Telescope Butterfly (M, 6.75\")",
-    description:
-      "SKU 21629. Male, 6.75\" full length (head, body, and tail). Calico coloring with deep body shape and butterfly tail. $160, 1 available.",
-    date: "2026-07-04",
-    aquabidUrl: "https://www.aquabid.com/cgi-bin/auction/goldfish/view.cgi?your-listing-id-here"
-  }
-];
+const VIDEOS = [];
