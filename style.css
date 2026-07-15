@@ -232,15 +232,15 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1.25rem;
-  max-width: 680px;
+  gap: 1.5rem;
+  max-width: 780px;
   margin: 0 auto;
 }
 
 .featured-fish-item {
-  flex: 1 1 260px;
-  max-width: 300px;
-}
+    flex: 1 1 320px;
+  max-width: 380px;
+
 
 .featured-fish-item img {
   display: block;
