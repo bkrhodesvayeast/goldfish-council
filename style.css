@@ -240,6 +240,7 @@ body {
 .featured-fish-item {
     flex: 1 1 320px;
   max-width: 380px;
+}
 
 
 .featured-fish-item img {
